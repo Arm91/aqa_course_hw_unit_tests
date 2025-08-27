@@ -30,6 +30,7 @@ for (let i = 0; i < 5; i++) {
   }
   smilePatternResult += '\n';
 }
+smilePatternResult = smilePatternResult.trim();
 
 /**
  * Заменить все пробелы в переменной text на "1".
