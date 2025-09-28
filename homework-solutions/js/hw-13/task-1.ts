@@ -6,12 +6,12 @@
 //     - Массив строк: переменная cities, значения ["Minsk", "Warsaw", "London"].
 //     - Объект: переменная person, объект с полями name: "Alice", age: 30, city: "Minsk".
 
-const num1: Number = 42;
-const str: String = 'Hello, TypeScript!';
+const num1: number = 42;
+const str: string = 'Hello, TypeScript!';
 const isComplete: Boolean = true;
 const number: Array<number> = [1, 2, 3, 4, 5];
 const cities: Array<string> = ['Minsk', 'Warsaw', 'London'];
-const person: Object = { name: 'Alice', age: 30, city: 'Minsk' };
+const person: object = { name: 'Alice', age: 30, city: 'Minsk' };
 
 // 2. Создайте псевдонимы типов:
 //     - Тип User, который содержит поля name (строка), age (число), и опциональное поле email (строка).
